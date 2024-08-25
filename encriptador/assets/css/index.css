@@ -1,0 +1,55 @@
+.area-de-texto{
+    width: 400px;
+    height: 500px;
+}
+.titulo-ingresar-texto{
+    color: #19447A;
+    font-size: 42px;
+}
+.parrafo-contenido{
+    font-size:#495057 !important;
+}
+.boton-encriptar{
+    background-color: #0A3871;
+    color: #F3F5FC;
+    border-radius: 11px;
+    width: 180px;
+    
+}
+.boton-desencriptar{
+    background-color: #D8DFE8;
+    color: #0A3871;
+    border-radius: 11px;
+    width: 180px;
+}
+.boton-copiar{
+    background-color: #D8DFE8;
+    color: #0A3871;
+    border-radius: 11px;
+    width: 180px;
+    margin-bottom: 20px;
+}
+.alura-img{
+    padding-top: 100px;
+}
+
+@media screen and (max-width: 450px) {
+
+    .Logo{
+        display: flex;
+        justify-content: center;
+    }
+    .area-de-texto{
+    width: 200px;
+    height: 200px;
+    }
+    .boton-encriptar{
+        width: 150px;
+        
+    }
+    .boton-desencriptar{
+
+        width: 150px;
+    }
+   
+  }
