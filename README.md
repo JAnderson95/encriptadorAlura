@@ -1,3 +1,41 @@
-<h1>ENCRIPTADOR ALURA LATAM CHALLENGE</h1>
-<p>Tecnologias HTML JS CSS</p>
-<p>Javier Anderson baquero</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/index.css">
+</head>
+<body>
+    <section class=" Imagen-logo-alura">
+        <div class="container-fluid Logo">
+            <img src="assets/imgs/alura logo.png" alt="">
+        </div>    
+    </section>
+
+    <section class="main-contenido">
+        <div class="container text-center">
+            <div class="row">
+              <div class="col">
+                <h2 class="titulo-ingresar-texto pb-3">Ingrese el texto aqui</h2>
+                <textarea name="area-de-texto" id="area-de-texto" class="area-de-texto"></textarea><br>
+                <p class="parrafo-contenido pt-2">Solo letras minúsculas y sin acento</p>
+                <button class="btn boton-encriptar" onclick="encriptar()">Encriptar</button>
+                <button class="btn boton-desencriptar" onclick="desencriptar()">Desencriptar</button>
+              </div>
+              <div class="col">
+                <div class="container contenedor-encriptacion">
+                  <img class="alura-img" src="assets/imgs/alura-img.png" alt="">
+                  <h2 id="mensaje" class="mensaje pt-2 pb-3">Ningún mensaje fue encontrado</h2>
+                  <p id="mensaje-secundario">Ingresa el texto que desees encriptar o desencriptar</p>
+                </div>
+                <button class="btn boton-copiar" onclick="copiarContenido()">Copiar</button>
+              </div>
+            </div>
+        </div>
+    </section>
+  
+    <script src="Javascript/encriptador.js"></script>
+</body>
+</html>
